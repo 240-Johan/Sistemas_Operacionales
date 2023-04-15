@@ -25,10 +25,11 @@ usuario.
 
 3. Describa como se puede generar un informe estadístico de la cantidad de tiempo y recursos
 consumidos por un programa.
-- Rta: Para generar un informe estadistico, se pueden utilizar herramientas de monitorieo y analisis de rendimientoque se integran con el sistema operativo o con el entorno de ejecucion
-- en OS como windows, se utiliza monitor de actividad para obtener informacion detallada sobre el uso de recursos de hardware, tales como el uso de CPU, memoria RAM, disco duro entre otros
-- una vez obtenida esta informacion, podemos generar un informe donde incluya datos como la cantidad de CPU y memoria RAM utilizada por el programa, el tiempo que tarda en ejecutarse, el numero de operaciones de entrada/salida, etc
-- esto es util al momento de identificar problemas de rendimiento en el programa y para realizar ajustes y mejoras que permitan optimizar recursos
+- Rta: 
+    - Para generar un informe estadistico, se pueden utilizar herramientas de monitorieo y analisis de rendimientoque se integran con el sistema operativo o con el entorno de ejecucion:
+        - en OS como windows, se utiliza monitor de actividad para obtener informacion detallada sobre el uso de recursos de hardware, tales como el uso de CPU, memoria RAM, disco duro entre otros
+        - una vez obtenida esta informacion, podemos generar un informe donde incluya datos como la cantidad de CPU y memoria RAM utilizada por el programa, el tiempo que tarda en ejecutarse, el numero de operaciones de entrada/salida, etc
+        - esto es util al momento de identificar problemas de rendimiento en el programa y para realizar ajustes y mejoras que permitan optimizar recursos
 
 4. Enumere y describa cinco actividades de un OS enfocadas a la administración de archivos.
 - Rta: 
