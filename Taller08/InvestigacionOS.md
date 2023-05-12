@@ -20,3 +20,13 @@
    * Digamos que en un sistema de procesamiento de imágenes, si el tiempo medio de procesamiento de una imagen es de 5 segundos y se establece un tiempo máximo de espera de 10 segundos, esto significa que si una imagen no se procesa dentro de los 10 segundos, se debe descartar o reprogramar para su procesamiento posterior. Si se intenta disminuir el tiempo máximo de espera a 5 segundos, las imágenes que tarden más de 5 segundos en procesarse se descartarán, lo que puede resultar en pérdida de datos.
 
    * Otro ejemplo es en sistemas de colas de atención al cliente, donde se establece un tiempo máximo de espera para atender a los clientes. Si se reduce el tiempo máximo de espera, puede aumentar la cantidad de clientes que abandonan la cola, lo que afecta negativamente la satisfacción del cliente. Si se aumenta el tiempo máximo de espera, puede aumentar el tiempo medio de atención al cliente, lo que también puede afectar la satisfacción del cliente.
+
+### 4. Como entran en conflicto en determinadas configuraciones la utilización de los dispositivos I/O y la utilización de la CPU?
+
+   * la utilización de los dispositivos I/O y la utilización de la CPU pueden entrar en conflicto, especialmente en sistemas donde la entrada/salida de datos es una parte fundamental del procesamiento.
+
+   * Por ejemplo, en un servidor de bases de datos, si se está realizando una consulta que requiere una gran cantidad de datos, la CPU puede estar esperando a que se complete la operación de entrada/salida, lo que resulta en una baja utilización de la CPU. En este caso, es importante optimizar la entrada/salida de datos para minimizar el tiempo de espera y maximizar la utilización de la CPU.
+
+### 5. Considere el siguiente conjunto de procesos, todos llegan al mismo tiempo en el orden del subíndice:
+![PruebaImgen](https://github.com/240-Johan/Sistemas_Operacionales/assets/83036017/a28f92bf-87ca-4465-8150-589b1b194c15)
+
