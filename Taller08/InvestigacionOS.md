@@ -1,4 +1,4 @@
-## Taller de INvestigacion 08
+## Taller de Investigacion 08
 
 ### 1. Por qué es importante para un planificador diferenciar entre un programa limitado por I/O y por CPU?
 
