@@ -1,3 +1,4 @@
+
 ## Planificacion de la CPU
 ## Taller de Investigacion 08
 
@@ -38,4 +39,34 @@
 
 Dibuje el diagrama de Gantt para FCFS, SJF, por prioridades (# de prioridad baja = a alta prioridad) y RR (cuanto = 1).
 ### Rta:
+# FCFS
+![Diagrama de Grantt FCFS](https://github.com/240-Johan/Sistemas_Operacionales/blob/main/Taller08/Diagrams/FCFS.png?raw=true)
+
+# FCFS
+![Diagrama de Grantt SFJ](https://github.com/240-Johan/Sistemas_Operacionales/blob/main/Taller08/Diagrams/SJF.png?raw=true)
+
+# Prioridades
+![Diagrama de Grantt Prioridades](https://github.com/240-Johan/Sistemas_Operacionales/blob/main/Taller08/Diagrams/Prioridades.png?raw=true)
+
+# RR
+![Diagrama de Grantt RR](https://github.com/240-Johan/Sistemas_Operacionales/blob/main/Taller08/Diagrams/RR.png?raw=true)
+
+
+### 6. Cual es el tiempo de ejecución de cada proceso para cada algoritmo?
+### Rta:
+
+| Proceso | FCFS | SJF | Prioridades | RR |
+| ------- | ---- | --- | ----------- |--- |
+| $p_1$   | 10   | 5   | 10          | 10 | 
+| $p_2$   | 11   | 1   | 11          | 1  |
+| $p_3$   | 13   | 3   | 12          | 2  |
+| $p_4$   | 14   | 2   | 14          | 3  |
+| $p_5$   | 19   | 4   | 19          | 7  |
+
+### 7. Cual es el tiempo de espera de cada proceso para cada algoritmo?
+### Rta:
+
+
+
+
 
