@@ -65,8 +65,55 @@ Dibuje el diagrama de Gantt para FCFS, SJF, por prioridades (# de prioridad baja
 
 ### 7. Cual es el tiempo de espera de cada proceso para cada algoritmo?
 ### Rta:
+# FCFS
+| Proceso | Tiempo de Ráfaga | Tiempo de espera |
+| ------- | ---------------- | ---------------- |
+| $p_1$   | 10               | 0                |
+| $p_2$   | 11               | 10               |
+| $p_3$   | 13               | 11               |
+| $p_4$   | 14               | 12               |
+| $p_5$   | 19               | 9                |
+
+## **SJF**
+| Proceso | Tiempo de Ráfaga | Tiempo de espera |
+| ------- | ---------------- | ---------------- |
+| $p_1$   | 5                | 0                |
+| $p_2$   | 1                | 0                |
+| $p_3$   | 3                | 9                |
+| $p_4$   | 2                | 12               |
+| $p_5$   | 4                | 0                |
+
+## **Prioridades**
+| Proceso | Tiempo de Ráfaga | Tiempo de espera |
+| ------- | ---------------- | ---------------- |
+| $p_1$   | 10               | 3                |
+| $p_2$   | 11               | 0                |
+| $p_3$   | 12               | 13               |
+| $p_4$   | 14               | 17               |
+| $p_5$   | 19               | 0                |
 
 
+## **RR**
+| Proceso | Tiempo de Ráfaga | Tiempo de espera |
+| ------- | ---------------- | ---------------- |
+| $p_1$   | 10               | 5                |
+| $p_2$   | 1                | 0                |
+| $p_3$   | 2                | 10               |
+| $p_4$   | 3                | 11               |
+| $p_5$   | 7                | 8                |
 
+### 8. Que algoritmo puede dar lugar a bloqueos indefinidos?
+### Rta:
+   * El algoritmo que puede dar lugar a bloqueos indefinidos es el algoritmo de planificación por prioridades sin desalojo, ya que, si llega un proceso con una prioridad más alta que el proceso en ejecución, este último se bloquea hasta que el primero termine. Si el proceso con mayor prioridad nunca termina o tiene ráfagas de CPU muy largas, el proceso bloqueado puede quedar en espera indefinidamente. Este problema se conoce como inanición o hambruna y se puede evitar usando una política de desalojo o asignando prioridades dinámicas que cambien según el tiempo de espera.
 
+### 9. Considere un sistema que implementa una planificación por colas multinivel. Que estrategia puede utilizar una computadora para maximizar la cantidad de tiempo de CPU asignada al proceso del usuario?
+### Rta:
+   * En un sistema de planificación por colas multinivel, existen varias estrategias que una computadora puede utilizar para maximizar la cantidad de tiempo de CPU asignada al proceso del usuario. Algunas de estas estrategias incluyen:
 
+       * Asignación de prioridades: la computadora puede asignar prioridades más altas a los procesos del usuario para que sean atendidos antes que los procesos del sistema. Esto asegura que los procesos del usuario tengan acceso preferencial a la CPU.
+
+       * Asignación de cuotas de tiempo: la computadora puede asignar cuotas de tiempo más grandes a los procesos del usuario que a los procesos del sistema. Esto garantiza que los procesos del usuario tengan más tiempo de CPU para completar sus tareas.
+
+       * Reducción de la cantidad de procesos del sistema: la computadora puede reducir la cantidad de procesos del sistema para liberar más recursos de CPU para los procesos del usuario.
+
+       * **Limitación de los recursos de los procesos del sistema:** la computadora puede limitar los recursos asignados a los procesos del sistema para que no compitan con los procesos del usuario por los recursos de CPU.
