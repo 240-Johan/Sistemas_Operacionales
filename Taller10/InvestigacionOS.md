@@ -1,6 +1,8 @@
 ## InterBloqueos
 ## Taller de Investigacion 10
 
+![Trancon](https://github.com/240-Johan/Sistemas_Operacionales/blob/main/Taller10/InterBloq_RL.png)
+
 ### 1. Considere la imagen, demuestre que las cuatro condiciones necesarias para que se produzca un interbloqueo se cumplen.
 ### Rta:
 La imagen muestra un interbloqueo entre vehículos en una intersección.
