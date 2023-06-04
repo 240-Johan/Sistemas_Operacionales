@@ -72,7 +72,7 @@ En términos de eficiencia de memoria, el algoritmo de primer ajuste muestra un 
 #### 1. ¿Por qué?
 #### 2. ¿Como podía el OS permitir el acceso a otras zonas de memoria?
 #### 3. ¿Por qué debería o por qué no debería?
-
+### Rta:
    * ¿Por qué?:  En un sistema operativo con paginación, un proceso no puede acceder a una zona de memoria que no sea de su propiedad porque la memoria física se divide en porciones del mismo tamaño llamadas marcos o páginas físicas y cada página física se asigna a un proceso de forma exclusiva¹. Cada proceso tiene su propia tabla de páginas que mapea sus páginas lógicas a marcos de página físicos².
 
    * ¿Como podía el OS permitir el acceso a otras zonas de memoria?: 2. El sistema operativo podría permitir el acceso a otras zonas de memoria mediante el uso de técnicas como el intercambio de memoria o la asignación dinámica de memoria.
@@ -80,7 +80,7 @@ En términos de eficiencia de memoria, el algoritmo de primer ajuste muestra un 
    * 3. ¿Por qué debería o por qué no debería? El sistema operativo debería controlar el acceso a la memoria para evitar problemas como la corrupción de datos o la interferencia entre procesos. Sin embargo, en algunos casos, puede ser necesario permitir el acceso compartido a ciertas áreas de memoria para permitir la comunicación entre procesos o para mejorar el rendimiento.
 
 ### 8. Compare el mecanismo de paginación con el de segmentación con respecto a la cantidad de memoria requerida por las estructuras de producción de direcciones para convertir las direcciones virtuales en direcciones físicas.
-
+### Rta:
 El mecanismo de paginación se compara con el de segmentación con respecto a la cantidad de memoria requerida por las estructuras de producción de direcciones para convertir las direcciones virtuales en direcciones físicas de la siguiente forma:
 
 - En el mecanismo de paginación, las estructuras de producción de direcciones son las tablas de páginas, que contienen las correspondencias entre las páginas (unidades lógicas) y los marcos de página (unidades físicas). La cantidad de memoria requerida por las tablas de páginas depende del número de páginas que tenga cada proceso y del tamaño de cada entrada en la tabla. Por ejemplo, si un proceso tiene 1024 páginas y cada entrada ocupa 4 bytes, la tabla de páginas requerirá 4 KB de memoria.
@@ -104,12 +104,12 @@ En general, el mecanismo de paginación requiere más memoria que el mecanismo d
 La dirección lógica se compone de un número de segmento y un desplazamiento dentro del segmento. La dirección física se obtiene sumando la base del segmento al desplazamiento, siempre que el desplazamiento sea menor que la longitud del segmento. Si el desplazamiento es mayor que la longitud del segmento se produce una violación de segmento y el acceso a memoria es inválido.
 
 Aplicando este método a las direcciones lógicas dadas y a la tabla de segmentos, se obtienen las siguientes direcciones físicas:
-a. 0.430: La dirección lógica corresponde al segmento 0 con un desplazamiento de 430. La base del segmento 0 es 219 y su longitud es 600. Como el desplazamiento es menor que la longitud, se suma la base al desplazamiento y se obtiene la dirección física: 219 + 430 = 649.
+#### a. 0.430: La dirección lógica corresponde al segmento 0 con un desplazamiento de 430. La base del segmento 0 es 219 y su longitud es 600. Como el desplazamiento es menor que la longitud, se suma la base al desplazamiento y se obtiene la dirección física: 219 + 430 = 649.
 
-b. 1.10: La dirección lógica corresponde al segmento 1 con un desplazamiento de 10. La base del segmento 1 es 2300 y su longitud es 14. Como el desplazamiento es menor que la longitud, se suma la base al desplazamiento y se obtiene la dirección física: 2300 + 10 = 2310.
+#### b. 1.10: La dirección lógica corresponde al segmento 1 con un desplazamiento de 10. La base del segmento 1 es 2300 y su longitud es 14. Como el desplazamiento es menor que la longitud, se suma la base al desplazamiento y se obtiene la dirección física: 2300 + 10 = 2310.
 
-c. 2.500: La dirección lógica corresponde al segmento 2 con un desplazamiento de 500. La base del segmento 2 es 90 y su longitud es 100. Como el desplazamiento es mayor que la longitud, se produce una violación de segmento y el acceso a memoria es inválido.
+#### c. 2.500: La dirección lógica corresponde al segmento 2 con un desplazamiento de 500. La base del segmento 2 es 90 y su longitud es 100. Como el desplazamiento es mayor que la longitud, se produce una violación de segmento y el acceso a memoria es inválido.
 
-d. 3.400: La dirección lógica corresponde al segmento 3 con un desplazamiento de 400. La base del segmento 3 es 1327 y su longitud es 580. Como el desplazamiento es menor que la longitud, se suma la base al desplazamiento y se obtiene la dirección física: 1327 + 400 = 1727.
+#### d. 3.400: La dirección lógica corresponde al segmento 3 con un desplazamiento de 400. La base del segmento 3 es 1327 y su longitud es 580. Como el desplazamiento es menor que la longitud, se suma la base al desplazamiento y se obtiene la dirección física: 1327 + 400 = 1727.
 
-e. 4.112: La dirección lógica corresponde al segmento 4 con un desplazamiento de 112. La base del segmento 4 es 1952 y su longitud es 96. Como el desplazamiento es mayor que la longitud, se produce una violación de segmento y el acceso a memoria es inválido.
+#### e. 4.112: La dirección lógica corresponde al segmento 4 con un desplazamiento de 112. La base del segmento 4 es 1952 y su longitud es 96. Como el desplazamiento es mayor que la longitud, se produce una violación de segmento y el acceso a memoria es inválido.
