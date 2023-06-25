@@ -1,0 +1,37 @@
+# PRUEBA 1
+
+stress-ng: info:  [131454] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131454]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131454] vm                76168     10.02      0.20      9.81      7599.83        7610.72
+stress-ng: info:  [131454] successful run completed in 10.03s
+
+
+# PRUEBA 2
+
+stress-ng: info:  [131558] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131558]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131558] vm               323188     10.01      5.55      4.45     32295.61       32343.30
+stress-ng: info:  [131558] successful run completed in 10.02s
+
+
+# PRUEBA 3
+
+stress-ng: info:  [131570] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131570]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131570] vm               333428     11.56     10.16      1.37     28834.45       28907.12
+stress-ng: info:  [131570] successful run completed in 11.57s
+
+
+# PRUEBA 4
+
+stress-ng: info:  [131576] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131576]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131576] vm               324330     10.04      9.33      0.70     32304.44       32357.37
+stress-ng: info:  [131576] successful run completed in 10.04s
+
+# PRUEBA 5
+
+stress-ng: info:  [131581] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131581]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131581] vm               324287     10.01      9.11      0.88     32412.31       32473.46
+stress-ng: info:  [131581] successful run completed in 10.01s

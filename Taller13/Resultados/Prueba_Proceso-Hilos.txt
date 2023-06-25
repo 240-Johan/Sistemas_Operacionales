@@ -1,0 +1,68 @@
+# PRUEBA 1
+
+stress-ng: info:  [131616] setting to a 10 second run per stressor
+stress-ng: info:  [131616] dispatching hogs: 1 cpu, 1 io, 1 vm, 1 hdd
+stress-ng: info:  [131618] io: this is a legacy I/O sync stressor, consider using iomix instead
+stress-ng: info:  [131616] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131616]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131616] cpu                2171     10.35      5.93      0.57       209.73         334.16
+stress-ng: info:  [131616] io                    4     10.13      0.01      0.04         0.39          76.40
+stress-ng: info:  [131616] vm               321741     10.13      4.62      2.34     31773.70       46186.89
+stress-ng: info:  [131616] hdd                6467     10.17      0.21      3.39       635.76        1794.97
+stress-ng: info:  [131616] successful run completed in 10.36s
+
+# PRUEBA 2
+
+stress-ng: info:  [131634] setting to a 10 second run per stressor
+stress-ng: info:  [131634] dispatching hogs: 1 cpu, 1 io, 1 vm, 1 hdd
+stress-ng: info:  [131636] io: this is a legacy I/O sync stressor, consider using iomix instead
+stress-ng: info:  [131634] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131634]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131634] cpu                 820     10.21      4.90      0.38        80.32         155.22
+stress-ng: info:  [131634] io                  338     10.22      0.00      0.02        33.08       11676.92
+stress-ng: info:  [131634] vm                77811     10.21      1.28      3.28      7622.67       17078.25
+stress-ng: info:  [131634] hdd               11937     10.25      1.51      4.53      1165.08        1975.85
+stress-ng: info:  [131634] successful run completed in 10.26s
+
+
+# PRUEBA 3
+
+
+stress-ng: info:  [131649] setting to a 10 second run per stressor
+stress-ng: info:  [131649] dispatching hogs: 1 cpu, 1 io, 1 vm, 1 hdd
+stress-ng: info:  [131651] io: this is a legacy I/O sync stressor, consider using iomix instead
+stress-ng: info:  [131649] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131649]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131649] cpu                 879     10.08      4.51      0.55        87.22         173.69
+stress-ng: info:  [131649] io                31621     10.00      0.07      0.30      3161.26       86915.77
+stress-ng: info:  [131649] vm                82944     10.26      1.85      3.54      8083.93       15383.94
+stress-ng: info:  [131649] hdd               13601     10.10      1.21      2.64      1347.21        3536.33
+stress-ng: info:  [131649] successful run completed in 10.27s
+
+
+# PRUEBA 4
+
+stress-ng: info:  [131657] setting to a 10 second run per stressor
+stress-ng: info:  [131657] dispatching hogs: 1 cpu, 1 io, 1 vm, 1 hdd
+stress-ng: info:  [131659] io: this is a legacy I/O sync stressor, consider using iomix instead
+stress-ng: info:  [131657] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131657]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131657] cpu                1310     10.34      4.47      0.84       126.64         246.79
+stress-ng: info:  [131657] io                39354     10.18      0.10      0.42      3864.18       75609.38
+stress-ng: info:  [131657] vm               281844     10.44      4.57      1.58     26992.69       45801.48
+stress-ng: info:  [131657] hdd               13962     10.27      1.41      2.25      1359.47        3820.38
+stress-ng: info:  [131657] successful run completed in 10.45s
+
+
+# PRUEBA 5
+
+stress-ng: info:  [131664] setting to a 10 second run per stressor
+stress-ng: info:  [131664] dispatching hogs: 1 cpu, 1 io, 1 vm, 1 hdd
+stress-ng: info:  [131666] io: this is a legacy I/O sync stressor, consider using iomix instead
+stress-ng: info:  [131664] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [131664]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [131664] cpu                 190      5.67      2.53      0.26        33.49          68.16
+stress-ng: info:  [131664] io                    2      5.57      0.00      0.00         0.36         483.79
+stress-ng: info:  [131664] vm                54891      4.84      1.02      0.92     11348.24       28185.08
+stress-ng: info:  [131664] hdd               13565      5.62      0.59      1.55      2414.91        6316.36
+stress-ng: info:  [131664] successful run completed in 5.68s
