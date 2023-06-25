@@ -1,0 +1,35 @@
+# PRUEBA 1
+
+stress-ng: info: stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [125743]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [125743] cpu                2860     10.08      9.99      0.08       283.72         284.25
+stress-ng: info:  [125743] successful run completed in 10.09s
+
+# PRUEBA 2
+
+stress-ng: info:  [130191] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [130191]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [130191] cpu                4178     10.00      9.97      0.02       417.67         418.46
+stress-ng: info:  [130191] successful run completed in 10.01s
+
+# PRUEBA 3
+
+stress-ng: info:  [130431] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [130431]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [130431] cpu                4086     10.01      9.92      0.06       408.32         409.27
+stress-ng: info:  [130431] successful run completed in 10.01s
+
+
+# PRUEBA 4
+
+stress-ng: info:  [130636] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [130636]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [130636] cpu                3979      9.90      9.87      0.01       402.03         402.48
+stress-ng: info:  [130636] successful run completed in 9.90s
+
+# PRUEBA 5
+
+stress-ng: info:  [130661] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [130661]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [130661] cpu                3807     10.05     10.01      0.03       378.85         379.10
+stress-ng: info:  [130661] successful run completed in 10.05s
